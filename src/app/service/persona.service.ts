@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  apiURL = 'https://backendleo1.herokuapp.com/persona/traer'; 
+  apiURL = 'https://leonelarias.onrender.com/persona/traer'; 
   constructor(private http: HttpClient) { }
 
   public getPersona(): Observable<any>{
